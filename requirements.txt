@@ -1,0 +1,28 @@
+# Core application
+streamlit>=1.63
+
+# PDF processing
+pymupdf>=1.28
+
+# Embeddings (local, no paid API)
+sentence-transformers>=6.0
+
+# Vector search
+faiss-cpu>=1.8
+
+# Numerical / tabular processing
+numpy>=1.26
+pandas>=2.0
+
+# Environment variables
+python-dotenv>=1.0
+
+# LLM: Gemini (current SDK — NOT the deprecated google-generativeai package)
+google-genai>=1.0
+
+# Web search (Tavily) for hybrid retrieval
+requests>=2.31
+
+# Running notebooks/document_rag_experiments.ipynb
+jupyter>=1.0
+ipykernel>=6.0

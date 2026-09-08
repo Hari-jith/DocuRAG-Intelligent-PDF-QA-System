@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated FAISS indexes (per-document, rebuilt from the source PDF —
+# not meant for source control)
+vectorstore/
+
+# Locally-tested / user-uploaded PDFs. The notebook's sample PDF is
+# committed on purpose so the project and evaluation set work out of the
+# box without regenerating anything.
+data/documents/*
+!data/documents/sample_paper.pdf
+
+# OS cruft
+.DS_Store
+Thumbs.db
