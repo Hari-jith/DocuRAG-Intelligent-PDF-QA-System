@@ -884,7 +884,7 @@ For a learning and portfolio project, this provides a clearer demonstration of t
 # Project Structure
 
 ```text
-docurag/
+DocuRAG-Intelligent-PDF-QA-System/
 
 ├── app.py
 ├── requirements.txt
@@ -1080,8 +1080,8 @@ Before running the project, you need:
 ## Clone the repository
 
 ```bash
-git clone <this-repo-url>
-cd docurag
+git clone https://github.com/Hari-jith/DocuRAG-Intelligent-PDF-QA-System
+cd DocuRAG-Intelligent-PDF-QA-System
 ```
 
 ---
@@ -1172,22 +1172,6 @@ Without `TAVILY_API_KEY`:
 * PDF-only functionality remains available.
 * Web retrieval is unavailable.
 * Questions requiring web retrieval should indicate that web search is not configured.
-
----
-
-## Important security note
-
-Never commit:
-
-```text
-.env
-```
-
-to GitHub.
-
-API keys should remain outside source control.
-
-The repository includes `.env` in `.gitignore`.
 
 ---
 
