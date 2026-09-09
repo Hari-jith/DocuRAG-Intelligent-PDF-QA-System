@@ -915,12 +915,7 @@ docurag/
 │   ├── summarizer.py
 │   ├── rag_pipeline.py
 │   └── evaluation.py
-│
-└── vectorstore/
 ```
-
-The `vectorstore/` directory contains generated runtime data and is gitignored.
-
 ---
 
 # Module Responsibilities
@@ -1282,38 +1277,6 @@ Or provide a PDF and evaluation set:
 ```bash
 python src/evaluation.py path/to/your.pdf your_eval_set.json
 ```
-
----
-
-# Screenshots
-
-Add screenshots after running the application locally.
-
-Recommended screenshots include:
-
-```text
-assets/
-└── screenshots/
-    ├── summary_panel.png
-    └── chat_panel.png
-```
-
-Then reference them in this README:
-
-```markdown
-![Document summary panel](assets/screenshots/summary_panel.png)
-
-![Chat with sources](assets/screenshots/chat_panel.png)
-```
-
-Useful screenshots would demonstrate:
-
-1. PDF upload
-2. Structured document metadata
-3. Generated summary
-4. PDF question answering
-5. Page-level source information
-6. Hybrid answer source separation, if demonstrated
 
 ---
 
