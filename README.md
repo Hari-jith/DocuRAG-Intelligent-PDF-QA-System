@@ -145,12 +145,6 @@ Generation
 
 instead of combining everything into a single opaque function.
 
-### 5. Avoid pretending evaluation is more comprehensive than it is
-
-The project includes a small evaluation harness, but its limitations are explicitly documented.
-
-The evaluation does not claim to prove general RAG quality or universal answer correctness.
-
 ---
 
 # Features
@@ -1264,6 +1258,16 @@ python src/evaluation.py path/to/your.pdf your_eval_set.json
 
 ---
 
+# Screenshots
+
+![USer Interface](assets/main_ui.png)
+
+![summary panel](assets/summary_panel.png)
+
+![chat panel](assets/chat_panel.png)
+
+---
+
 # Evaluation
 
 `src/evaluation.py` uses a small hand-built evaluation set.
@@ -1602,17 +1606,4 @@ FAISS is used as a vector index for similarity search.
 
 The vector index itself is not a trained machine learning model.
 
----
-
-# Future Repository Improvements
-
-As the project matures, the repository itself can also be improved with:
-
-* architecture diagram image,
-* application screenshots,
-* automated tests,
-* example evaluation outputs,
-* sample public/synthetic documents,
-* deployment instructions.
-  
 ---
