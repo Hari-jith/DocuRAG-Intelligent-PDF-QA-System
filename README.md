@@ -1260,11 +1260,14 @@ python src/evaluation.py path/to/your.pdf your_eval_set.json
 
 # Screenshots
 
-![USer Interface](assets/main_ui.png)
+### 1. User Interface
+>![USer Interface](assets/main_ui.png)
 
-![summary panel](assets/summary_panel.png)
+### 2. Summary Panel
+>![summary panel](assets/summary_panel.png)
 
-![chat panel](assets/chat_panel.png)
+### 3. Chat Panel
+>![chat panel](assets/chat_panel.png)
 
 ---
 
